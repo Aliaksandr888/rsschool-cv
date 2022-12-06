@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>My CV</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#about-me">ABOUT MYSELF</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#work-experience">WORK EXPERIENCE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#projects">MY PROJECTS</a></li>
+            <li><a href="#code-example">CODE EXAMPLE</a></li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <div class="about">
+                <img id="my-photo" src="img/photo_2021-12-16_15-31-55.jpg" alt="my photo">
+                <div class="contacts">
+                    <div class="contacts-decoration">
+                        <div class="yellow-box"></div>
+                        <div class="contacts-name">Phone</div>
+                    </div>
+                    <div><a href="tel:+375259892449">+375(25)989-24-49</a></div>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-decoration">
+                        <div class="yellow-box"></div>
+                        <div class="contacts-name">Email</div>
+                    </div>
+                    <div><a href="al.brain90@gmail.com">al.brain90@gmail.com</a></div>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-decoration">
+                        <div class="yellow-box"></div>
+                        <div class="contacts-name">Linkedin</div>
+                    </div>
+                    <div><a href="https://linkedin.com/in/aliaksandr-bravin-a84314219/">Link to My linkedin</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="my-name">
+                <h1>ALIAKSANDR BRAVIN </h1>
+                <h3>Front-End developer</h3>
+            </div>
+
+            <div class="about-me">
+                <h2>ABOUT MYSELF</h2>
+                <a id="about-me"></a>
+                <p>For 7 years I worked in "Mingaz", developed as a technical specialist and acquired skills in
+                    personnel
+                    management, management of production activities.
+                    In 2020, I decided to change the sphere in favor of a more promising industry. I have successfully
+                    completed two educational courses on Front-end development and am ready to apply the acquired
+                    knowledge
+                    in my work. I have a little experience in freelancing. I know the basics of SEO (SEO, optimization).
+                    I
+                    am able to quickly understand the assigned tasks, I work with a large amount of information. I’m
+                    keen to
+                    develop professionally!
+                </p>
+            </div>
+            <div class="skills">
+                <h2>SKILLS</h2>
+                <a id="skills"></a>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>SVG/Canvas</li>
+                    <li>SPA</li>
+                    <li>Ajax</li>
+                    <li>English - Pre Intermediate (A2)</li>
+                </ul>
+
+            </div>
+            <div class="work-experience">
+                <h2>WORK EXPERIENCE</h2>
+                <a id="work-experience"></a>
+                <p><span class="info-ex">05.2021 - 08.2021 Internship in IT-Academy:</span> course "Developing Web
+                    Applications in JavaScript"
+                </p>
+                <p><span class="info-ex">12.2020 - 02.2021 Internship in IT-Academy:</span> course “Development of
+                    WEB-sites
+                    using HTML, CSS, JavaScript”
+                </p>
+                <p><span class="info-ex">July 2013 - Now Unitary Enterprise "MINGAZ:</span> section manager</p>
+            </div>
+            <div class="education">
+                <h2>EDUCATION</h2>
+                <a id="education"></a>
+                <p><span class="info-ex">05.2021-08.2021</span> , IT-Academy, course “Development of Web Applications in
+                    JavaScript”.</p>
+                <p><span class="info-ex">12.2020 – 03.2021</span> , IT-Academy, course “Development of WEB-sites using
+                    HTML, CSS, JavaScript”.</p>
+                <p><span class="info-ex">08.2008 - 06.2013</span> , Higher. Polotsk State University 08.2008 - 06.2013,
+                    Higher. Polotsk State
+                    University</p>
+            </div>
+            <div class="my-projects">
+                <h2>My projects</h2>
+                <a id="projects"></a>
+                <ul>
+                    <li>
+                        <a href="https://aliaksandr888.github.io/Tetris/"><img src="img/Tetris.png" width="400" height="200" alt="tetris"></a>
+                        <h3>Tetris</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="code-example">
+                <h2>CODE EXAMPLE</h2>
+                <a id="code-example"></a>
+                <pre>
+                    <code>Object.assign(Array.prototype, {
+                        square() {return this.map(val => val ** 2);},
+                        cube() {return this.map(val => val ** 3);},
+                        average() {return this.sum() / this.length;},
+                        sum() {return this.reduce((pre, val) => pre + val, 0);},
+                        even() {return this.filter(val => !(val % 2));},
+                        odd() {return this.filter(val => val % 2);}
+                      });</code>
+                    </pre>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+           
+            
+            <a class="footer__github" href="https://github.com/Aliaksandr888" target="_blank">
+                <img src="img/github-logo.svg" alt="github-logo">  My GitHub
+            </a>
+           
+        </div>
+
+        <p>2021</p>
+        <p><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" width="86" height="32" alt="RS School"></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
