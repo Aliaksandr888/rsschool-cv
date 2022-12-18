@@ -1,1 +1,138 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />   
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<title>My CV</title>
+</head>
+<body>
+    <header id="pageHeader">
+        <nav id="nav">
+            <ul id="nav-wrapper">
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a> </li>
+                <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+ <main id="main">
+    <div id='main-container'>
+        <aside id="main-aside">
+            <div id="photo-box">
+                <img src="img/my photo.jpg" alt="my photo" id="my-photo">
+            </div>
+            <div class="aside-informatiom">
+                <div class="aside-item">
+                    <a id="contacts"></a>
+                    <h4 class="aside-item_title">Contacts</h4>
+                    <ul id="contacts-list">
+                        <li class="contact-item"><span class="material-symbols-outlined">mail</span>
+                            <a href="mailto:al.barin@gmail.com" class="contact-link">al.barin@gmail.com</a></li>
+                        <li class="contact-item">
+                            <span class="material-symbols-outlined">
+                                phone_iphone
+                                </span>
+                                <a href="tel:+375259892449" class="contact-link">+375259892449</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="material-symbols-outlined">
+                                location_on
+                                </span>
+                                <span class="contact-link">Minsk, Belarus</span>
+                        </li>
+                        <li class="contact-item">
+                            <img src="img/icons8-discord (1).svg" alt="" id="discord-img"><span class="contact-link">Aliaksandr#5010</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aside-item">
+                    <a id="education"></a>
+                    <h4 class="aside-item_title">Education</h4>
+                    <div>
+                        <p class="aside-item_info">08.2008 - 06.2013,</p>
+                        <p class="aside-item_info">Higher. Polotsk State University</p>
+                    </div>
+                    <div>
+                        <p class="aside-item_info">05.2021-08.2021,</p>
+                        <p class="aside-item_info">IT-Academy, course "Development of Web Applications in JavaScript"</p>
+                    </div>
+                </div>
+                <div class="aside-item">
+                    <a id="skills"></a>
+                    <h4 class="aside-item_title">Skills</h4>
+                    <div>
+                       <ul>
+                        <li class="aside-item_info skill-item">HTML</li>
+                        <li class="aside-item_info skill-item">CSS</li>
+                        <li class="aside-item_info skill-item">JavaScript</li>
+                        <li class="aside-item_info skill-item">Ajax</li>
+                        <li class="aside-item_info skill-item">Canvas</li>
+                        <li class="aside-item_info skill-item">SPA</li>
+                       </ul>
+                    </div>
+                    
+                </div>
+            
+        </aside>
+        <section id="main-information">
+            <div class="main-title">
+                <h1>Bravin Aliaksandr</h1>
+                <h3 class="title-profession">JUNIOR FRONT-END DEVELOPER</h3>
+            </div>
+            <div class="main-information">
+                <a id="about-me"></a>
+              <h2 class="ifo-title">About me</h2>
+              
+              <p class="info-text">For 9 years I worked in  "Mingaz", developed as a technical specialist and acquired skills in personnel management, management of production activities.
+                In 2020, I decided to change the sphere in favor of a more promising industry. I have successfully completed two educational courses on Front-end development and am ready to apply the acquired knowledge in my work. I have a little experience in freelancing. I know the basics of SEO (SEO, optimization). I am able to quickly understand the assigned tasks, I work with a large amount of information. I’m keen to develop professionally!
+            </p>
+            </div>
+            <div class="main-information">
+                <a id="code"></a>
+              <h2 class="ifo-title">Code</h2>
+              <pre ><code class="info-text">function duplicateEncode(word){
+                return word
+                  .toLowerCase()
+                  .split('')
+                  .map( function (v, i, arr) {
+                    return arr.indexOf(v) == arr.lastIndexOf(v) ? '(' : ')'
+                  })
+                  .join('');
+              }</code></pre>
+            </div>
+              <div class="main-information">
+                <a id="language"></a>
+                <h2 class="ifo-title">Language</h2>
+                <p class="info-text">English: B1-Intermediate</p>
+            </div>
+            <div class="main-information">
+                <h2 class="ifo-title">Project</h2>
+                <div class="info-text"><a href="https://aliaksandr888.github.io/Tetris/" target="_blank"><span class="material-symbols-outlined" id="icon-game">
+                    videogame_asset
+                    </span></a></div>
+            </div>
+        </section>
+    </div>
+ </main>
+ <footer id="footer">
+<div class="footer-box">© 2022</div>
+<div class="footer-box"><a href="http://https://github.com/Aliaksandr888" target="_blank"><img src="img/icons8-github.svg" alt="github"></a></div>
+<div class="footer-box"><a href="https://rs.school/js/" target="_blank"><img src="img/rs_school_js.svg" alt="rs" id="rs-img"></a></div>
+ </footer>
+</body>
+</html>
+
